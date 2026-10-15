@@ -1,0 +1,5 @@
+{
+  "name": "hook-daemon",
+  "version": "0.2.6",
+  "description": "Answers heavy Python command hooks (PreToolUse / PostToolUse / Stop / UserPromptSubmit) from one resident process instead of spawning Python on every tool call. Falls back to the normal settings hooks whenever the resident process is unavailable."
+}

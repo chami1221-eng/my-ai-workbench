@@ -1,0 +1,5 @@
+{
+  "name": "send-gate",
+  "version": "0.1.0",
+  "description": "Before an outbound message is drafted, scheduled or sent (email draft script, chat post, chat MCP tools), checks that its full body was shown in the conversation and the user replied after seeing it. Blocks the call otherwise."
+}

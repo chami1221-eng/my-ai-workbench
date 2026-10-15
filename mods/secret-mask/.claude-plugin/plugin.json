@@ -1,0 +1,5 @@
+{
+  "name": "secret-mask",
+  "version": "0.2.0",
+  "description": "Redacts tokens, API keys and passwords from every row that enters the conversation (tool results, hook context, input, replies) before it is stored. The secret never reaches the model or the transcript."
+}

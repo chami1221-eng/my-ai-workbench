@@ -1,0 +1,6 @@
+{
+  "name": "prompt-band",
+  "version": "0.1.0",
+  "description": "Shows up to three hints above the prompt: tools that have been running for a while (elapsed time), what a one-key approval would approve when the last reply ends with a question, and a wrap-up hint based on context usage.",
+  "types": "./types/index.d.ts"
+}

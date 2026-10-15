@@ -1,0 +1,5 @@
+{
+  "name": "bash-rewrite",
+  "version": "0.1.0",
+  "description": "Rewrites Bash commands that a PreToolUse guard would deny (heredoc or python -c containing backslashes, cd followed by relative file names) into an equivalent form before the guard sees them. Forms it cannot rewrite safely pass through unchanged and are still stopped by the guard."
+}

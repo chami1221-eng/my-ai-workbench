@@ -1,0 +1,6 @@
+{
+  "name": "layer0-compose",
+  "version": "0.2.0",
+  "description": "Moves the top-priority rule list (Layer 0) from per-turn UserPromptSubmit injection into the system prompt, where prompt caching applies. The injected copy is removed only when the system prompt really carries the same text.",
+  "types": "./types/index.d.ts"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "shot-peek",
+  "version": "0.1.0",
+  "description": "When Claude reads an image from the Screenshots folder, shows its file name and capture time above the prompt so you can confirm it read the screenshot you meant.",
+  "types": "./types/index.d.ts"
+}

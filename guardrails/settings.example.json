@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit|Bash|Agent|Task|WebFetch|WebSearch|mcp__slack__slack_send_message|mcp__slack__slack_schedule_message",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python /path/to/guardrails/hooks/pretool_hooks.py",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python /path/to/guardrails/hooks/check_context_size.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
